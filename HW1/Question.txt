@@ -1,3 +1,4 @@
+
 HW1: 6 points
 In this assignment, you need to create a conceptual Entity-Relational (ER) diagram, to model the scenario described below [designing a DB for a new dental practice!]; note that your design is not going to be at a logical level, ie. you don't have to worry about how to represent your design using relational tables (including bridges) or other data models.
 Please submit your work as a single image file in .jpg or .png form that shows the entire diagram, via D2L Dropbox (not via Blackboard). ALSO include a README.txt that contains any design choices you want to highlight, and/or assumptions you made [if the ER diagram were 'code', these would be 'comments'].
@@ -15,11 +16,13 @@ You can create the ER diagram using any software of your choice, including:
 •	...
 After constructing the ER diagram, save, or take a screengrab snapshot, submit it [as a .jpg or .png image file].
 Note that you can even draw your diagram legibly on paper and take a photo of it and submit that - but having said that, I'd encourage you to use a diagramming tool, that will make your result look professional, and have you follow industry practice.
+-------------------------------------
 You need to use Crow's Foot Notation for the ER diagram. For each relationship, indicate the cardinality (minimum and maximum participation), also via Crow's Foot symbols - use this infographic (from www.vivekmchawla.com/) as a guide [you don't need to denote cardinality as (1,1) etc., instead, you would use the notation shown in the infographic, ie. use symbols such as |O and ||].
 How much detail should your diagram contain? Use this sample as a guide (eg. you do not need to indicate data types for attributes).
 You (a database designer/analyst) have been hired by the owners of a new (yet to be launched) dental practice, to design a comprehensive database that would help run their operation smoothly.
 The following paragraphs contain descriptions of various aspects of the business - your goal is to use them to create an ER diagram that captures the business operation, from a DB perspective.
 The owners just want the big pieces in place, for now - you might asked back to do a detailed design later [depending on how good your current design will turn out!].
+-------------------------------------
 The owners plan to take a loan (of $300,000) from a local bank, to launch the business - the loan (plus interest) would need to be paid off in installments that would span 10 years.
 Startup costs include furniture, dental equipment, software (for scheduling, billing etc), supplies, training, etc.
 Staff that need to be hired include front office workers, dental hygienists, regular dentists, periodontists, endodontists, orthodontists and dental surgeons. The medical professionals have licenses that need to be kept up to date [https://www.dbc.ca.gov/licensees/dds/renewals.shtml]; the business needs to track this.
@@ -32,10 +35,13 @@ The owners plan to lease a medical building near a major hospital - there is a m
 Supplies are restocked every month - everything from needles to drugs to paper towels. There are also other other monthly operating costs - facilities cleaning, utilities, food in the breakout room, etc.
 Each month, the owners would want to see a report that contains expenditure and income so that they can assess profit or loss.
 When their business takes off, the owners have grand visions of using a data driven approach (analytics) to maximize their ROI!
+-------------------------------------
 The above is what the dental practice owners have in mind! Your task now is to (conceptually) design a good database for them, to help run their operation smoothly. Note - there isn't a single solution, or a single 'good' solution. You are free to make intelligent choices about what data to store where (entities), and how to connect all the pieces (relations) - this includes making reasonable assumptions about anything not stated above. Note too that some requirements stated above, might not be able to be captured in an ER diagram - this is fine. Also, feel free to come up with an EER diagram if you see a need for one. Be sure to document your design decisions (they would serve to provide rationale for "why you created your design the way you did").
+-------------------------------------
 Submission checklist:
 •	.jpg or .png pic of your ER diagram
 •	README.txt description file
 You can post questions (and answer others' :)) on Piazza, under 'hw1'.
 Have fun!
-
+-------------------------------------
+Note: Class website = https://bytes.usc.edu/cs585/s21_DBDS012/home/index.html

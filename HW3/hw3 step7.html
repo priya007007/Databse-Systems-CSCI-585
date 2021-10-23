@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spirograph generation</title>
+</head>
+<body>
+    <script>
+      
+        var R = 8;
+        var r = 1;
+        var a = 4;
+        var long;
+        var lat;
+
+         for(t = 0; t<17*Math.PI;t= t+0.1 ){
+            long = -118.285457 + 0.001* ((R + r) * Math.sin((r / R) * t) - a * Math.sin((1 + r / R) * t))
+            lat = 34.020523 + 0.001 *((R + r) * Math.cos((r / R) * t) - a * Math.cos((1 + r / R) * t))
+            document.write(long+","+lat+",0<br>");
+         }
+    </script>
+</body>
+</html>

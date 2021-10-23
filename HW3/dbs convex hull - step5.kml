@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle>
+<Icon>
+<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+
+<Placemark>
+<name>Ralphs</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.291058,34.031885</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Dirt DogInc</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.275726,34.028301</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AdamsBlvd</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.281496, 34.030599</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+
+<name>Cava</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.284718,34.025052</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+
+<name>Norris Dental</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.287009,34.024019</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+
+<name>Bookstore</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.286662,34.021015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+
+
+<name>FedEx</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.276908,34.020949</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+
+<name>28street</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.298807,34.030281</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+
+<name>36street</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.296965,34.022248</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+
+<name>BancStadium</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.285593,34.012203</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+
+<name>BradyBakery</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates> -118.279015,34.014992</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>12</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.294198,34.014526</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>home</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.281888,34.029903</coordinates>
+</Point>
+</Placemark>
+
+
+
+             <Placemark>
+          <name>The hull</name>
+          <visibility>1</visibility>
+          <Style>
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+          <Polygon>
+             <!-- <extrude>4</extrude>-->
+             <altitude>10</altitude> 
+             <altitudeMode>clampToGround</altitudeMode> 
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                -118.285593,34.012203,0
+                -118.294198,34.014526,0
+                -118.296965,34.022248,0
+                -118.298807,34.030281,0
+                -118.291058,34.031885,0
+                -118.281496,34.030599,0
+                -118.275726,34.028301,0
+                -118.276908,34.020949,0
+                -118.279015,34.014992,0
+                -118.285593,34.012203,0 
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+
+          <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.281888,34.029903  -118.281496,34.030599</coordinates>
+      </LineString>
+      <Style> 
+  <LineStyle>  
+   <color>#cc0000ff</color> <width>3</width>
+  </LineStyle> 
+ </Style>
+    </Placemark>
+
+      <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.281888,34.029903  -118.275726,34.028301</coordinates>
+      </LineString>
+      <Style> 
+  <LineStyle>  
+   <color>#cc0000ff</color> <width>3</width>
+  </LineStyle> 
+ </Style>
+    </Placemark>
+
+      <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.281888,34.029903  -118.284718,34.025052</coordinates>
+      </LineString>
+      <Style> 
+  <LineStyle>  
+   <color>#cc0000ff</color> <width>3</width>
+  </LineStyle> 
+ </Style>
+    </Placemark>
+
+ <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.281888,34.029903  -118.287009,34.024019</coordinates>
+      </LineString>
+      <Style> 
+  <LineStyle>  
+   <color>#cc0000ff</color> <width>3</width>
+  </LineStyle> 
+ </Style>
+    </Placemark>
+
+         </Document>
+</kml>

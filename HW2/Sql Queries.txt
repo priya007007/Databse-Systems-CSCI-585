@@ -1,0 +1,45 @@
+Question:
+HW2: 6 points
+For this hw, you will add (your own) data to tables you'd create, based on your database design from HW1, then write SQL queries to run on those tables :)
+You'll be using 'Oracle Live SQL' to do your work, and submit links to - so you don't need to install anything, or directly submit any code on D2L! You'll simply be submitting links...[eg: https://livesql.oracle.com/apex/livesql/s/c1v3mbw9y8jnivrr0fb85cjxq]
+Here are a couple of pages to get you started on Live SQL: https://www.thatjeffsmith.com/archive/2016/03/a-place-to-learn-oracle-no-setup-required/ and https://csveda.com/structured-query-language/sql-using-oracle-live-sql/
+-----------------------------------------
+Q1 (2 points). Given a time range (eg. Jan 1 to Jan 31, 2021), in that interval, what is the average amount a procedure cost, and how long did it take on the average?
+
+Ans) https://livesql.oracle.com/apex/livesql/s/lh65zhcjz0luetoblpo0dbs0q
+
+Here each procudure has a specific cost associated with it which is a float value in dollers. Each procedure also has a time that is declared  int and is in minutes. The table  created here, p cannot have any columns as null since there has to be a patient unique id with procedure cost and duration, date and a id that uniquely identifies each row. Only the nessary details for the procedure are stored here. procedure_done_ID represents the type of procedure. procedure_id uniquely identifies each row in the table. I used 2 queries to see the table and if it works.
+-----------------------------------------
+Q2 (2 points). Given a date, what is the income for that date, from all the procedures performed that day? The owners could run this daily, to chart income, cumulative income, etc.
+
+Ans) https://livesql.oracle.com/apex/livesql/s/lh60vqb23gjs5a5b54jr4vez4
+
+The cost of each procudure is procedure cost for a procedure. The income from a days services is from the procudures performed that day. Here using sum, and quering the specific date, we find the total cost of procedures performed on a given day.There is no need need to worry about whether it comes from patient or insurance. It is just the income generated from that procedure. None of the attributes can be null since if a something was performed, it needs to have all the details. Also,  procedure_id is primary key used to uniquely refer each row, while procedure_name_id identifies the procedure done. procedurecost is the value in dollers. 
+-----------------------------------------
+Q3 (1 point). The owners have asked you to create a new table, after you'd built the original db - this is a simple 'capabilities' table, with just two columns: EMPLOYEE ID, SKILL. With this table, they hope to have, in a single place, what each employee (staff, surgeons... everyone) can do, eg. throw a party, file taxes, administer injections, extract teeth, talk to the press... [each employee would pick from a giant list of tasks, one or more of the items - this is to prevent variations and typos].
+Write a query that will pick out only the employees who can do every task in a table such as the one below:
+File taxes
+Meet the press
+Organize spring cleaning
+Do teeth cleaning
+Reorder inventory
+Why do this? The owners want to plan a 'light week' that is staffed with a limited number of employees who can do all the above, and rotate tasks - while giving the rest of the staff, paid time off (the ones who come to work get 1.5x pay for that week - cool!).
+
+Ans)https://livesql.oracle.com/apex/livesql/s/lh65zhckcmhhsh1inwto8m72y
+
+There are 2 tables, 1 contains a task and its id. The other table has a row with an employee id  and a task he/she can perform, its name and id and a general id(ID_PRIMARY_KEY) that uniquely identifies each row. The group by, joins and having operators are used. Here we have a column, task_value that is 1 for each row. This will be usefull in finding and getting emplyees and number of tasks they are mapped to. The employees, if any who will be equal to count of rows in task table will be the employees who can do all tasks. Again here many columns cannot be null. 
+-----------------------------------------
+Q4 (1 point).
+Come up with a(nother) reasonable query that the owners would want to make, using all the data in their db, and write SQL for it. Explain in your submission README, what the query is, in plain English, and also how your SQL code works (ie what it does to carry out the query). You can even include (create, and fill) new tables that were not asked for in HW1. Be creative, have fun with this 'roll your own' question!
+
+Ans)https://livesql.oracle.com/apex/livesql/s/lh6y72rbcr7jscbt64xcmvws3
+
+If the owners want to get the patient ids and name of all those patients who have had more than 5 procedures done, they can do this query. Maybe they want to send a survey to these patients asking how their experience went and how to improve that especially since this is a new clinic so that matters a lot in order to attract more patients. My table uses the where clause to return all such records their ids and name. For further details the owners would have to contact the patients themselves since medical records are not accessable that easily.list_of_procedures  is the total number of procedures done by a patient in this clinic.
+NOTE:used few queries to check if it works. 
+-----------------------------------------
+Submission checklist:
+• your four livesql.oracle.com/<> links (which you'd save as 'unlisted' so that it's not publicly available) - one each for Q1, Q2, Q3, Q4, placed in a README.txt
+• assumptions etc. clearly stated in the README
+You can post questions (and answer others' :)) on Piazza, under 'hw2'.
+Enjoy SQL coding!
+-----------------------------------------
