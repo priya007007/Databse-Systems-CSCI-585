@@ -1,5 +1,5 @@
 In the ER Diagram, we have the following entities: 
-
+ 
 1) PATIENT INFORMATION
 Patient contains  details for each patient. It also contains the patient payment details i.e  what patient has paid so far for all treatments taken in this clinic and what is yet to pay for by the patient for all the procedures the patient has done so far in this clinic.
 

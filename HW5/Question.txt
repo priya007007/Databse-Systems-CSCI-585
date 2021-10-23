@@ -1,5 +1,5 @@
 HW5: ML
-Total points: 6
+Total points: 6 
 This last hw is on supervised machine learning! As you now know, it's data-related (lots, and lots, and lots of it), after all :)
 Here is a summary of what you'll do: on Google's Colab, train a neural network on differentiating between a cat pic and dog pic, then use the trained network to classify a new (cat-like or dog-like) pic into a cat or dog...
 This is a 'soup-to-nuts' (start to finish) assignment that will get your feet wet (or plunge you in!), doing ML - a VERY valuable skill - training a self-driving car, for example, would involve much more complexity, but would be based on the same workflow.

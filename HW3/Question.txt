@@ -1,4 +1,4 @@
-
+ 
 HW3: Geospatial data handling
 Total points: 6
 In this homework, you are going to work with spatial data - you will create (generate/sample) some data, visualize it, do queries on it, and visualize the query results.. Hope you have fun with this!

@@ -1,5 +1,5 @@
 
- HW4: NoSQL data, querying
+ HW4: NoSQL data, querying 
 Total points: 6
 This HW is going to get you familiar with working with NoSQL, ie. JSON data! While the data we play with are small, the same software, and steps, apply to data that might be a billion times (!) or more bigger.
 Specifically, you will be using MongoDB Atlas - a cloud-based installation of MongoDB, which means there is nothing to install :) You'll work within the free tier, which gets you a cluster of 3 nodes, 500G of storage space, etc, which is quite adequate for this HW and beyond (DO continue learning more Mongo commands after the course).

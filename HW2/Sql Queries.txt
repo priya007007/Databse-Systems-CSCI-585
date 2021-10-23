@@ -1,4 +1,4 @@
-Question:
+Question: 
 HW2: 6 points
 For this hw, you will add (your own) data to tables you'd create, based on your database design from HW1, then write SQL queries to run on those tables :)
 You'll be using 'Oracle Live SQL' to do your work, and submit links to - so you don't need to install anything, or directly submit any code on D2L! You'll simply be submitting links...[eg: https://livesql.oracle.com/apex/livesql/s/c1v3mbw9y8jnivrr0fb85cjxq]
